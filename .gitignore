@@ -1,0 +1,31 @@
+# Maven e diretórios de build
+/target/
+/build/
+/out/
+
+# IDEs
+/nbproject/
+/.idea/
+/.vscode/
+
+# Logs
+*.log
+/logs/
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.swp
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Classes compiladas
+*.class
+*.jar
+
+# Maven Wrapper (se não estiver usando)
+.mvn/
+mvnw
+mvnw.cmd
