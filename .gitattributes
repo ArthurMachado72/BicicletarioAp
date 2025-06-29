@@ -2,15 +2,6 @@
 logs/** linguist-detectable=false
 nbproject/** linguist-detectable=false
 nbactions.xml linguist-detectable=false
-*.xml linguist-detectable=false
-cat > .gitattributes << 'EOF'
-# Ignorar arquivos de log
-*.log linguist-detectable=false
-logs/** linguist-detectable=false
+*.form linguist-detectable=false
+target/** linguist-detectable=false
 
-# Ignorar arquivos e configurações do NetBeans
-nbproject/** linguist-detectable=false
-nbactions.xml linguist-detectable=false
-
-# Ignorar XMLs de configuração (ajuste se quiser manter o pom.xml contado)
-*.xml linguist-detectable=false
